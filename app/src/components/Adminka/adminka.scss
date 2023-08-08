@@ -1,0 +1,16 @@
+@import '../../../sass/variables';
+
+iframe {
+    position: absolute;
+    // top: 96px;
+    top: $panelHeight;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - $panelHeight);
+    border: none;
+}
+
+editor-tmp:focus {
+    outline: 2px solid orange;
+    outline-offset: 8px;
+}

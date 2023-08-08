@@ -1,0 +1,6 @@
+@import '../../../sass/variables';
+
+.panel {
+    height: $panelHeight;
+    border-bottom: 2px solid black;
+}
